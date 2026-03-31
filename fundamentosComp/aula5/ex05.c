@@ -17,12 +17,13 @@
 
 int main()
 {
-    float number, result;
+    float number;
+    double result;
     printf("Digite um numero real para calcular sua raiz quadrada: ");
     scanf("%f", &number);
 
     result = sqrt(number);
-    printf("A raiz quadrada de %.2f e: %.2f", number, result);
+    printf("A raiz quadrada de %.2f e: %lf", number, result);
 
     return 0;
 }
