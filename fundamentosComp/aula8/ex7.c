@@ -21,7 +21,7 @@ int main()
     printf("Digite um número a ser fatorado: ");
     scanf("%d", &index);
 
-    while (index > 1) // Teoricamente ele multiplica o 1, mas para otimizar o index nao chega a fazer essa operação com 1
+    while (index > 1) // Teoricamente ele multiplica o 1, mas para poupar processamento, o index nao chega a fazer essa operação com 1
     {
         fatorial = fatorial * index; // 5! = 5 * 4 * 3 * 2 * 1
         index--;
