@@ -16,8 +16,8 @@
 
  /***
   * Recebe 3 notas e dependendo da opção escolhida retorna a média aritmética, média ponderada ou soma
-  * \param argGrade1 é a entrada de 1 de 3 notas
   * \param argChoice define qual processo a função fará
+  * \param argGrade1 é a entrada de 1 de 3 notas
   * \param argGrade2 é a entrada de 1 de 3 notas
   * \param argGrade3 é a entrada de 1 de 3 notas
   * \return o resultado da opção escolhida
